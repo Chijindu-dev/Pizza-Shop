@@ -1,5 +1,4 @@
 import logo from "./logo.png";
-import header  from "./navbar.jpg";
 
 
 import menu_1 from "./menu_1.jpg";
@@ -10,6 +9,8 @@ import menu_5 from "./menu_5.jpeg";
 import menu_6 from "./menu_6.jpeg";  
 import menu_7 from "./menu_7.jpeg";
 import menu_8 from "./menu_8.jpeg";
+import menu_9 from "./menu_9.jpeg";
+import menu_10 from "./menu_10.jpeg";
 
 
 import food_1 from "./food-1.jpeg";
@@ -50,7 +51,6 @@ import food_32 from "./food-32.jpeg";
 
 const assets = {
     logo,
-    header,
 
     menu_1, 
     menu_2,   
@@ -60,6 +60,8 @@ const assets = {
     menu_6,
     menu_7,
     menu_8,
+    menu_9,
+    menu_10,
 
     food_1,
     food_2,
@@ -94,5 +96,49 @@ const assets = {
     food_31,
     food_32,
 }
+
+export const Menu_list = [
+  {
+    menu_name: "Classic Margherita",
+    menu_image: menu_1
+  },
+  {
+    menu_name: "Pepperoni Feast",
+    menu_image: menu_2
+  },
+  {
+    menu_name: "BBQ Chicken Pizza",
+    menu_image: menu_3
+  },
+  {
+    menu_name: "Four Cheese Delight",
+    menu_image: menu_4
+  },
+  {
+    menu_name: "Veggie Supreme",
+    menu_image: menu_5
+  },
+  {
+    menu_name: "Hawaiian Tropical",
+    menu_image: menu_6
+  },
+  {
+    menu_name: "Spicy Meat Lovers",
+    menu_image: menu_7
+  },
+  {
+    menu_name: "Pesto Garden Pizza",
+    menu_image: menu_8
+  },
+  {
+  menu_name: "Truffle Mushroom Pizza",
+  menu_image: menu_9
+  },
+  {
+  menu_name: "Buffalo Ranch Pizza",
+  menu_image: menu_10
+  }
+];
+
 
 export default assets;
