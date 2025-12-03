@@ -25,10 +25,35 @@
 .explore-menu-list::-webkit-scrollbar {
     display: none;
 }
-.img{
+.explore-menu-item img{
     width: 100px;
     height: 100px;
     min-width: 80px;
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
+.explore-menu-item img:hover{
+    transform: scale(1.05);
+}
+.explore-menu-item p{
+    margin-top: 10px;
+    color: #262626;
+    font-weight: 500;
+    font-size: max(1.1vw ,16px);
+    cursor: pointer;
+}
+
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border-radius: none;
+}
+
+.Active{
+    border: 10px solid tomato;
+    padding: 2px;
 }
