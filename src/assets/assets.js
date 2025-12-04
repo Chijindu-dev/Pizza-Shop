@@ -1,6 +1,6 @@
 import logo from "./logo.png";
-
-
+import star from "./star.png";
+import Add from "./ADD.png";
 import menu_1 from "./menu_1.jpg";
 import menu_2 from "./menu_2.jpg";
 import menu_3 from "./menu_3.jpg";
@@ -51,7 +51,8 @@ import food_32 from "./food-32.jpeg";
 
 const assets = {
     logo,
-
+    star,
+    Add,
     menu_1, 
     menu_2,   
     menu_3,
@@ -139,6 +140,285 @@ export const Menu_list = [
   menu_image: menu_10
   }
 ];
+
+
+export const Food_List = [
+  {
+    id: 1,
+    name: "Margherita Pizza",
+    description: "Classic tomato, mozzarella, and fresh basil on a thin crispy crust.",
+    price: 12.99,
+    category: "Pizza",
+    image: food_1
+  },
+  {
+    id: 2,
+    name: "Pepperoni Feast",
+    description: "Loaded with spicy pepperoni slices and extra mozzarella cheese.",
+    price: 14.99,
+    category: "Pizza",
+    image: food_2
+  },
+  {
+    id: 3,
+    name: "BBQ Chicken Pizza",
+    description: "Tender chicken tossed in smoky BBQ sauce with onions and mozzarella.",
+    price: 15.49,
+    category: "Pizza",
+    image: food_3
+  },
+  {
+    id: 4,
+    name: "Hawaiian Delight",
+    description: "Golden pineapple chunks and savory ham on creamy mozzarella.",
+    price: 13.99,
+    category: "Pizza",
+    image: food_4
+  },
+  {
+    id: 5,
+    name: "Veggie Supreme",
+    description: "Bell peppers, onions, olives, mushrooms, and sweet corn.",
+    price: 12.49,
+    category: "Pizza",
+    image: food_5
+  },
+  {
+    id: 6,
+    name: "Four Cheese Pizza",
+    description: "Mozzarella, cheddar, parmesan, and gorgonzola melted to perfection.",
+    price: 14.49,
+    category: "Pizza",
+    image: food_6
+  },
+  {
+    id: 7,
+    name: "Meat Lovers",
+    description: "Loaded with sausage, bacon, pepperoni, and ground beef.",
+    price: 16.49,
+    category: "Pizza",
+    image:food_7
+  },
+  {
+    id: 8,
+    name: "Spicy Peri-Peri Pizza",
+    description: "Fiery peri-peri chicken with peppers and creamy mozzarella.",
+    price: 15.99,
+    category: "Pizza",
+    image:food_8
+  },
+  {
+    id: 9,
+    name: "Shrimp Alfredo Pizza",
+    description: "Creamy Alfredo sauce topped with shrimp and herbs.",
+    price: 17.99,
+    category: "Pizza",
+    image: food_9
+  },
+  {
+    id: 10,
+    name: "Truffle Mushroom Pizza",
+    description: "Rich truffle cream, mushrooms, and parmesan.",
+    price: 18.49,
+    category: "Pizza",
+    image: food_10
+  },
+  {
+    id: 11,
+    name: "Garlic Bread",
+    description: "Crispy, buttery garlic bread topped with herbs.",
+    price: 6.99,
+    category: "Sides",
+    image:food_11
+  },
+  {
+    id: 12,
+    name: "Cheesy Garlic Sticks",
+    description: "Soft breadsticks loaded with melted mozzarella.",
+    price: 7.99,
+    category: "Sides",
+    image: food_12
+  },
+  {
+    id: 13,
+    name: "Classic Chicken Wings",
+    description: "Crispy wings tossed in your choice of spicy or BBQ sauce.",
+    price: 10.99,
+    category: "Sides",
+    image:food_13
+  },
+  {
+    id: 14,
+    name: "Mozzarella Sticks",
+    description: "Golden-fried cheese sticks served with marinara sauce.",
+    price: 8.49,
+    category: "Sides",
+    image:food_14
+  },
+  {
+    id: 15,
+    name: "Caesar Salad",
+    description: "Crisp romaine, croutons, parmesan, and Caesar dressing.",
+    price: 9.49,
+    category: "Salads",
+    image:food_15
+  },
+  {
+    id: 16,
+    name: "Greek Salad",
+    description: "Fresh tomatoes, cucumbers, olives, feta, and olive oil.",
+    price: 9.99,
+    category: "Salads",
+    image: food_16
+  },
+  {
+    id: 17,
+    name: "Tiramisu",
+    description: "Coffee-flavored Italian dessert with mascarpone layers.",
+    price: 7.99,
+    category: "Desserts",
+    image: food_17
+  },
+  {
+    id: 18,
+    name: "Chocolate Lava Cake",
+    description: "Warm molten chocolate cake served with cream.",
+    price: 8.99,
+    category: "Desserts",
+    image: food_18
+  },
+  {
+    id: 19,
+    name: "Vanilla Ice Cream",
+    description: "Creamy vanilla ice cream topped with chocolate drizzle.",
+    price: 5.49,
+    category: "Desserts",
+    image: food_19
+  },
+  {
+    id: 20,
+    name: "Strawberry Cheesecake",
+    description: "Smooth cheesecake with sweet strawberry topping.",
+    price: 8.49,
+    category: "Desserts",
+    image: food_20
+  },
+  {
+    id: 21,
+    name: "Coca-Cola",
+    description: "Chilled refreshing Coke (50cl).",
+    price: 2.49,
+    category: "Drinks",
+    image:food_21
+  },
+  {
+    id: 22,
+    name: "Sprite",
+    description: "Lemon-lime refreshing drink.",
+    price: 2.49,
+    category: "Drinks",
+    image: food_22
+  },
+  {
+    id: 23,
+    name: "Fanta Orange",
+    description: "Sweet and bubbly orange soda.",
+    price: 2.49,
+    category: "Drinks",
+    image: food_23
+  },
+  {
+    id: 24,
+    name: "Fresh Lemonade",
+    description: "Hand-squeezed lemonade with mint.",
+    price: 3.99,
+    category: "Drinks",
+    image: food_24
+  },
+  {
+    id: 25,
+    name: "Mango Smoothie",
+    description: "Thick mango smoothie blended fresh.",
+    price: 4.99,
+    category: "Drinks",
+    image: food_25
+  },
+  {
+    id: 26,
+    name: "Chicken Alfredo Pasta",
+    description: "Creamy Alfredo pasta with grilled chicken strips.",
+    price: 14.99,
+    category: "Pasta",
+    image: food_26
+  },
+  {
+    id: 27,
+    name: "Spaghetti Bolognese",
+    description: "Classic beef bolognese sauce over spaghetti.",
+    price: 13.99,
+    category: "Pasta",
+    image: food_27
+  },
+  {
+    id: 28,
+    name: "Pesto Pasta",
+    description: "Fresh basil pesto mixed with parmesan and olive oil.",
+    price: 12.49,
+    category: "Pasta",
+    image: food_28
+  },
+  {
+    id: 29,
+    name: "Mac & Cheese",
+    description: "Creamy cheddar mac and cheese baked to golden perfection.",
+    price: 11.99,
+    category: "Pasta",
+    image: food_29
+  },
+  {
+    id: 30,
+    name: "Grilled Chicken Sandwich",
+    description: "Juicy grilled chicken with lettuce and special sauce.",
+    price: 9.99,
+    category: "Sandwiches",
+    image: food_30
+  },
+  {
+    id: 31,
+    name: "Club Sandwich",
+    description: "Triple-layer sandwich with turkey, cheese, egg, and veggies.",
+    price: 10.49,
+    category: "Sandwiches",
+    image: food_31
+  },
+  {
+    id: 32,
+    name: "Buffalo Chicken Wrap",
+    description: "Spicy buffalo chicken wrapped with lettuce and ranch.",
+    price: 9.99,
+    category: "Sandwiches",
+    image: food_32
+  }
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 export default assets;
