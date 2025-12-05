@@ -25,7 +25,7 @@
 .explore-menu-list::-webkit-scrollbar {
     display: none;
 }
-.explore-menu-item img{
+.explore-menu-list-item img{
     width: 100px;
     height: 100px;
     min-width: 80px;
@@ -53,7 +53,7 @@
     border-radius: none;
 }
 
-.explore-menu-item .Active{
-    border: 10px solid tomato;
+.explore-menu-list-item .active{
+    border: 2px solid tomato !important;
     padding: 2px;
 }

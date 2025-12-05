@@ -98,47 +98,43 @@ const assets = {
     food_32,
 }
 
-export const Menu_list = [
+export const Menu = [
   {
-    menu_name: "Classic Margherita",
+    menu_name: "Salad",
     menu_image: menu_1
   },
   {
-    menu_name: "Pepperoni Feast",
+    menu_name: "Rolls",
     menu_image: menu_2
   },
   {
-    menu_name: "BBQ Chicken Pizza",
+    menu_name: "deserts",
     menu_image: menu_3
   },
   {
-    menu_name: "Four Cheese Delight",
+    menu_name: "Sandwich",
     menu_image: menu_4
   },
   {
-    menu_name: "Veggie Supreme",
+    menu_name: "shawarma",
     menu_image: menu_5
   },
   {
-    menu_name: "Hawaiian Tropical",
+    menu_name: "Cake",
     menu_image: menu_6
   },
   {
-    menu_name: "Spicy Meat Lovers",
+    menu_name: "Pure veg",
     menu_image: menu_7
   },
   {
-    menu_name: "Pesto Garden Pizza",
+    menu_name: "Pasta",
     menu_image: menu_8
   },
   {
-  menu_name: "Truffle Mushroom Pizza",
+  menu_name: "Noodles",
   menu_image: menu_9
   },
-  {
-  menu_name: "Buffalo Ranch Pizza",
-  menu_image: menu_10
-  }
 ];
 
 
@@ -148,7 +144,7 @@ export const Food_List = [
     name: "Margherita Pizza",
     description: "Classic tomato, mozzarella, and fresh basil on a thin crispy crust.",
     price: 12.99,
-    category: "Pizza",
+    category: "Pure veg",
     image: food_1
   },
   {
@@ -156,7 +152,7 @@ export const Food_List = [
     name: "Pepperoni Feast",
     description: "Loaded with spicy pepperoni slices and extra mozzarella cheese.",
     price: 14.99,
-    category: "Pizza",
+    category: "Rolls",
     image: food_2
   },
   {
@@ -164,7 +160,7 @@ export const Food_List = [
     name: "BBQ Chicken Pizza",
     description: "Tender chicken tossed in smoky BBQ sauce with onions and mozzarella.",
     price: 15.49,
-    category: "Pizza",
+    category: "Rolls",
     image: food_3
   },
   {
@@ -172,7 +168,7 @@ export const Food_List = [
     name: "Hawaiian Delight",
     description: "Golden pineapple chunks and savory ham on creamy mozzarella.",
     price: 13.99,
-    category: "Pizza",
+    category: "Rolls",
     image: food_4
   },
   {
@@ -180,7 +176,7 @@ export const Food_List = [
     name: "Veggie Supreme",
     description: "Bell peppers, onions, olives, mushrooms, and sweet corn.",
     price: 12.49,
-    category: "Pizza",
+    category: "Pure veg",
     image: food_5
   },
   {
@@ -188,7 +184,7 @@ export const Food_List = [
     name: "Four Cheese Pizza",
     description: "Mozzarella, cheddar, parmesan, and gorgonzola melted to perfection.",
     price: 14.49,
-    category: "Pizza",
+    category: "Pure veg",
     image: food_6
   },
   {
@@ -196,23 +192,23 @@ export const Food_List = [
     name: "Meat Lovers",
     description: "Loaded with sausage, bacon, pepperoni, and ground beef.",
     price: 16.49,
-    category: "Pizza",
-    image:food_7
+    category: "shawarma",
+    image: food_7
   },
   {
     id: 8,
     name: "Spicy Peri-Peri Pizza",
     description: "Fiery peri-peri chicken with peppers and creamy mozzarella.",
     price: 15.99,
-    category: "Pizza",
-    image:food_8
+    category: "shawarma",
+    image: food_8
   },
   {
     id: 9,
     name: "Shrimp Alfredo Pizza",
     description: "Creamy Alfredo sauce topped with shrimp and herbs.",
     price: 17.99,
-    category: "Pizza",
+    category: "Rolls",
     image: food_9
   },
   {
@@ -220,55 +216,55 @@ export const Food_List = [
     name: "Truffle Mushroom Pizza",
     description: "Rich truffle cream, mushrooms, and parmesan.",
     price: 18.49,
-    category: "Pizza",
+    category: "Pure veg",
     image: food_10
   },
   {
     id: 11,
-    name: "Garlic Bread",
+    name: "Garlic Sandwich",
     description: "Crispy, buttery garlic bread topped with herbs.",
     price: 6.99,
-    category: "Sides",
-    image:food_11
+    category: "Sandwich",
+    image: food_11
   },
   {
     id: 12,
     name: "Cheesy Garlic Sticks",
     description: "Soft breadsticks loaded with melted mozzarella.",
     price: 7.99,
-    category: "Sides",
+    category: "Rolls",
     image: food_12
   },
   {
     id: 13,
-    name: "Classic Chicken Wings",
+    name: "Classic Chicken Pizza",
     description: "Crispy wings tossed in your choice of spicy or BBQ sauce.",
     price: 10.99,
-    category: "Sides",
-    image:food_13
+    category: "shawarma",
+    image: food_13
   },
   {
     id: 14,
     name: "Mozzarella Sticks",
     description: "Golden-fried cheese sticks served with marinara sauce.",
     price: 8.49,
-    category: "Sides",
-    image:food_14
+    category: "Rolls",
+    image: food_14
   },
   {
     id: 15,
     name: "Caesar Salad",
     description: "Crisp romaine, croutons, parmesan, and Caesar dressing.",
     price: 9.49,
-    category: "Salads",
-    image:food_15
+    category: "Salad",
+    image: food_15
   },
   {
     id: 16,
     name: "Greek Salad",
     description: "Fresh tomatoes, cucumbers, olives, feta, and olive oil.",
     price: 9.99,
-    category: "Salads",
+    category: "Salad",
     image: food_16
   },
   {
@@ -276,15 +272,15 @@ export const Food_List = [
     name: "Tiramisu",
     description: "Coffee-flavored Italian dessert with mascarpone layers.",
     price: 7.99,
-    category: "Desserts",
+    category: "Cake",
     image: food_17
   },
   {
     id: 18,
     name: "Chocolate Lava Cake",
-    description: "Warm molten chocolate cake served with cream.",
+    description: "Warm molten chocolate Cake served with cream.",
     price: 8.99,
-    category: "Desserts",
+    category: "Cake",
     image: food_18
   },
   {
@@ -292,31 +288,31 @@ export const Food_List = [
     name: "Vanilla Ice Cream",
     description: "Creamy vanilla ice cream topped with chocolate drizzle.",
     price: 5.49,
-    category: "Desserts",
+    category: "deserts",
     image: food_19
   },
   {
     id: 20,
-    name: "Strawberry Cheesecake",
-    description: "Smooth cheesecake with sweet strawberry topping.",
+    name: "Strawberry CheeseCake",
+    description: "Smooth cheeseCake with sweet strawberry topping.",
     price: 8.49,
-    category: "Desserts",
+    category: "Cake",
     image: food_20
   },
   {
     id: 21,
-    name: "Coca-Cola",
-    description: "Chilled refreshing Coke (50cl).",
+    name: "Pizza",
+    description: "Chilled refreshing",
     price: 2.49,
-    category: "Drinks",
-    image:food_21
+    category: "Rolls",
+    image: food_21
   },
   {
     id: 22,
-    name: "Sprite",
-    description: "Lemon-lime refreshing drink.",
+    name: "Salad",
+    description: "Lemon-lime refreshing Salad",
     price: 2.49,
-    category: "Drinks",
+    category: "Salad",
     image: food_22
   },
   {
@@ -324,7 +320,7 @@ export const Food_List = [
     name: "Fanta Orange",
     description: "Sweet and bubbly orange soda.",
     price: 2.49,
-    category: "Drinks",
+    category: "deserts",
     image: food_23
   },
   {
@@ -332,7 +328,7 @@ export const Food_List = [
     name: "Fresh Lemonade",
     description: "Hand-squeezed lemonade with mint.",
     price: 3.99,
-    category: "Drinks",
+    category: "deserts",
     image: food_24
   },
   {
@@ -340,13 +336,13 @@ export const Food_List = [
     name: "Mango Smoothie",
     description: "Thick mango smoothie blended fresh.",
     price: 4.99,
-    category: "Drinks",
+    category: "deserts",
     image: food_25
   },
   {
     id: 26,
     name: "Chicken Alfredo Pasta",
-    description: "Creamy Alfredo pasta with grilled chicken strips.",
+    description: "Creamy Alfredo Pasta with grilled chicken strips.",
     price: 14.99,
     category: "Pasta",
     image: food_26
@@ -380,15 +376,15 @@ export const Food_List = [
     name: "Grilled Chicken Sandwich",
     description: "Juicy grilled chicken with lettuce and special sauce.",
     price: 9.99,
-    category: "Sandwiches",
+    category: "Sandwich",
     image: food_30
   },
   {
     id: 31,
     name: "Club Sandwich",
-    description: "Triple-layer sandwich with turkey, cheese, egg, and veggies.",
+    description: "Triple-layer Sandwich with turkey, cheese, egg, and veggies.",
     price: 10.49,
-    category: "Sandwiches",
+    category: "Sandwich",
     image: food_31
   },
   {
@@ -396,7 +392,7 @@ export const Food_List = [
     name: "Buffalo Chicken Wrap",
     description: "Spicy buffalo chicken wrapped with lettuce and ranch.",
     price: 9.99,
-    category: "Sandwiches",
+    category: "Sandwich",
     image: food_32
   }
 ];

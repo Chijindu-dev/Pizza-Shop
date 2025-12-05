@@ -3,9 +3,14 @@ import NavBar from './Components/NavBar/NavBar';
 import Home from './Pages/Home/Home';
 import Cart from './Pages/Cart/Cart';
 import PlaceOrder from './Pages/PlaceOrder/placeorder';
+import Footer from './Components/Footer/footer';
+
+
+
 
 function App() {
   return (
+    <>
     <div className='app'>
       <NavBar />
       <Routes>
@@ -14,6 +19,8 @@ function App() {
         <Route path='/placeorder' element={<PlaceOrder />} />
       </Routes>
     </div>
+    <Footer/>
+    </>
   );
 }
 
