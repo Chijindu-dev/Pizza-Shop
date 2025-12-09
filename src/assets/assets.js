@@ -1,6 +1,8 @@
 import logo from "./logo.png";
 import star from "./star.png";
 import Add from "./ADD.png";
+import appstore from "./appstore.png"
+import playstore from "./playstore.png"
 import menu_1 from "./menu_1.jpg";
 import menu_2 from "./menu_2.jpg";
 import menu_3 from "./menu_3.jpg";
@@ -53,6 +55,8 @@ const assets = {
     logo,
     star,
     Add,
+    playstore,
+    appstore,
     menu_1, 
     menu_2,   
     menu_3,

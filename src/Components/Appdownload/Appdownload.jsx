@@ -1,7 +1,6 @@
 import React from 'react'
 import './appdownload.css'
-import { FaAppStore } from 'react-icons/fa'
-import { IoLogoGooglePlaystore } from 'react-icons/io5'
+import assets from '../../assets/assets'
 
 
 const Appdownload = () => {
@@ -9,8 +8,8 @@ const Appdownload = () => {
     <div className='app-download' id='app-download'>
       <p>For Better Experience Download  <br /> Pizzaro App</p>
       <div className="app-download-platform">
-         <IoLogoGooglePlaystore/>
-         <FaAppStore/>
+          <img src={assets.playstore} alt=""  className='play'/>
+          <img src={assets.appstore} alt="" />
       </div>
     </div>
   )

@@ -42,3 +42,29 @@
     background-color: grey;
     border: none;
 }
+.footer-content-left img{
+    width:200px;
+}
+
+
+
+@media (max-width:750px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+    .footer-content-left,
+    .footer-content-right,
+    .footer-content-center {
+        align-items: flex-start;   /* Move items to the left */
+        text-align: left;          /* Makes the text align left */
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
