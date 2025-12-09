@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import assets from '../../assets/assets'
+import  assets  from '../../assets/assets'
 import { PiPlus } from 'react-icons/pi';
 import { BiMinus } from 'react-icons/bi';
 import { StoreContext } from '../../Context/StoreContext';
