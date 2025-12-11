@@ -27,9 +27,34 @@ const StoreContextProvider = (props) => {
     }));
   };
 
-  useEffect(() => {
-    console.log("Cart Items:", cartItems);
-  }, [cartItems]);
+  // const getTotalCartAmount = () => {
+  //   let totalAmount = 0;
+  //   for (const item in cartItems) {
+  //     if (cartItems > 0) {
+  //       let itemInfo = Food_List.find((product) => product.id === item);
+  //       totalAmount += itemInfo.price * cartItems[item];
+  //     }
+  //   }
+  //   return totalAmount;
+  // };
+  const getTotalCartAmount = () => {
+  let totalAmount = 0;
+
+  for (const item in cartItems) {
+    if (cartItems[item] > 0) {
+      let itemInfo = Food_List.find(
+        (product) => product.id === Number(item)
+      );
+
+      if (itemInfo) {
+        totalAmount += itemInfo.price * cartItems[item];
+      }
+    }
+  }
+
+  return totalAmount;
+};
+
 
   const ContextValue = {
     Food_List,
@@ -37,6 +62,7 @@ const StoreContextProvider = (props) => {
     setCartItems,
     addToCart,
     RemoveFromCart,
+    getTotalCartAmount,
   };
 
   return (

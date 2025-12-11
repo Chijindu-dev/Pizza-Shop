@@ -1,16 +1,17 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import assets from '../../assets/assets';
 
 import './NavBar.css'
 import { BiSearch } from 'react-icons/bi';
 import { SlBasket } from "react-icons/sl";
 import { Link } from 'react-router-dom';
+import { StoreContext } from '../../Context/StoreContext';
 
 
 const Navbar = ({setShowLogin}) => {
 
       const [menu , setMenu] = useState("home");
-
+      const {getTotalCartAmount} = useContext(StoreContext);
 
 
   return (
@@ -26,7 +27,7 @@ const Navbar = ({setShowLogin}) => {
         <BiSearch className='search'/>
         <div className="navbar-SearchIcon">
          <Link to="/cart"><SlBasket className='basket'/></Link> 
-          <div className="dot">          
+          <div className={getTotalCartAmount()===0? "":"dot"}>          
           </div>
         </div>
         <button onClick={()=>setShowLogin(true)}>sign in</button>
