@@ -14,7 +14,7 @@ import menu_8 from "./menu_8.jpeg";
 import menu_9 from "./menu_9.jpeg";
 import menu_10 from "./menu_10.jpeg";
 
-
+import bgvideo from "./navbar.mp4";
 import food_1 from "./food-1.jpeg";
 import food_2 from "./food-2.jpeg";
 import food_3 from "./food-3.jpeg";
@@ -57,6 +57,7 @@ const assets = {
     Add,
     playstore,
     appstore,
+    bgvideo,
     menu_1, 
     menu_2,   
     menu_3,

@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
-import bgVideo from '../../Assets/navbar.mp4'
+import assets from '../../assets/assets'
+
 
 
 
@@ -11,7 +12,7 @@ const Header = () => {
       
       {/* Background video */}
       <video className="bg-video" autoPlay loop muted playsInline>
-        <source src={bgVideo} type="video/mp4" />
+        <source src={assets.bgvideo} type="video/mp4" />
       </video>
 
       <div className="header-contents">
